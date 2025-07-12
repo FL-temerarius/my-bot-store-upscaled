@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Умные решения для бизнеса, который заботится о людях</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background: #f8f9fa; /* Light  color, close to white */
+      color: #333; /* Dark grey - more readable */
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #28a745; /* Green accent shade */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      font-weight: 500;
+      color: #555;
+      text-align: center;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+
+    .product {
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-title {
+      font-size: 1.5em;
+      font-weight: 600;
+      color: #212529; /* Very Dark Grey */
+      margin-bottom: 10px;
+    }
+
+    .product-title strong {
+      font-weight: 700;
+    }
+
+    .details {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid #ddd;
+      color: #495057;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+      display: block;
+      margin-top: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .order-status {
+      margin-top: 8px;
+      font-style: italic;
+      color: #28a745;
+    }
+
+    /* Logotype and buttons */
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Avatar (if any) */
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    /* Detailed buttons */
+    .details button {
+      width: auto;
+      padding: 8px 15px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://via.placeholder.com/150" alt="Логотип" class="logo">
+
+  <h1>Ваш Фокус - Стратегия и Развитие.<br><br>Умные таблицы, боты и AI-агенты, работают на вас и на ваши высокие цели!</h1>
+
+  <h3><i>Выберите свой вариант и получите личное предложение, пока действует акция:</i><br></h3>
+
+  <div class="product" id="product1">
+    <div class="product-title">- Умная таблица для генерации контента -<br><br><strong>Контент-план на автопилоте: ИИ-помощник для Telegram и других соцсетей</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Интеграция с ИИ. Готовые промпты и роли. Все, что нужно для создания контента для телеграм канала.</p>
+      <p><strong>Промокод: </strong>ContentXLS</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product2">
+    <div class="product-title">- Бот для опросов -<br><br><strong>Опросы, которые работают: Собирайте данные и вовлекайте аудиторию</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong><br><br>Это супер-удобное решение, которое поможет вам в проведении опросов, анкетирования и кастдевов.<br><br>В дополнение к боту вы получаете удобный рабочий кабинет для администратора (реализован в формате Google таблицы), где можно вести учет и аналитику ответов, моментально менять описание задачи, содержание и список вопросов, а также управлять отправкой благодарности респондентам за участие в опросе - добавлять промокоды, ссылки на закрытые каналы, гайды и т.д. <br><br>Прекрасная альтернатива для недавно законодательно запрещенных в РФ Google форм: <br>1) Вопросы в боте легче настроить, <br>2) Телеграм у респондента всегда под рукой и он может вернуться к опросу в любой момент и удобно пройти его с мобильного устройства. <br>3) Опрос может быть анонимным - пользователеь не обязан указывать свой e-mail или телефон (если вы их не попросите), это создает дополнительную атмосферу доверия и повышает честность и полноту ответов. Все ответы автоматически сохраняются в единой базе данных, доступной для анализа.<br><br>Согласие с Политикой обработки пд и текст самой политики можно "вшить" в сообщения бота, соблюдая тем самым все необходимые требования к его работе.</p>
+      <p><strong>Промокод :</strong>OprosBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product3">
+    <div class="product-title">- Яндекс-форма и Телеграм Бот с интеграцией -<br><br><strong>Данные под контролем: Безопасный сбор и анализ информации</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Это комбинированное решение, которое поможет охватить более широкий круг респондентов и соблюсти все требования законодательства об обработке персональных данных.<br><br>Данные собираются и обрабатываются на локальных росссийских серверах. Возможна также их сквозная передача в Google таблицы для дополнительного анализа - в обезличенной форме.<br><br>Прекрасная альтернатива для недавно запрещенных в РФ Google форм: <br>Собирайте данные надежно и безопасно, соблюдая все требования законодательства.  Анализируйте их с помощью всех доступных вам инстументов. Все ответы автоматически сохраняются в единой базе данных, доступной для автоматической обрабоки и анализа.</p>
+      <p><strong>Промокод :</strong>OprosBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product4">
+    <div class="product-title">- Бот для мониторинга процессов, составления каталогов и архивов -<br><br><strong>Каталогизация без усилий: Фото, Заметки и ИИ - 3 в 1 и удобный архив!</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><strong><br>Как работает:</strong><br><br>Идеальное решение для вашего бизнеса или для частного использования.<br><br>Вы набрасываете в бот картинки, фото, скриншоты и комментарии к ним. Бот сохраняет их в таблицу, а также при необходимости - распознает текст на изображении (включая рукописный) и переводит его на русский или английский языки. При желании - можно подключить и другие языки и функции.<br><br>К одному фото/скриншоту можно добавить до 8-9 комментариев по разным темам. Все данные попадают в таблицу, где можно менять заголовки, вести учет, анализ и дополнительные комментарии. <br><br>Таким образом можно вести учет и инвентаризацию  - от разбора фото-каталога, гардероба и летних-зимних вещей до серьезного учета товаров, продуктов, покупок и счетов. Можно на лету создавать свои каталоги, вести фото-дневник любых бизнес-процессов или детских поделок, осовободить телефон от лишней информации, создавать фото-отчеты с временными метками и так далее.</p>
+      <p><strong>Промокод: </strong>KatalogBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product5">
+    <div class="product-title">- ИИ Переводчик -<br><br><strong>Забудьте про копипаст и общайтесь на любом языке без границ!</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong> Как работает:</strong> <br><br>Отправляете боту текст или картинку, он моментально возвращает перевод на русский или любой выбранный вами язык.<br><br>Два языка можно установить в избранные и бот будет переводить сообщения без использования дополнительных команд, автоматически определяя язык ввода.<br><br>Не нужно тратить время на переход в приложение или на страницу переводчика Google Translate, выбор языков, копипаст - просто перешлите переведенное сообщение своим контактам, либо добавьте бота в группу.<br>Облегчает общение с иностранными партнерами.<br>Ускоряет перевод технических документов в 4 раза! <br><br>ИИ позволяет получить более качественный, естественный и профессиональный перевод, а также ценные комментарии по неоднозначным и неявным нюсансам, которые доступны только носителям языка (важно для редких языков, где Google Translate не справляется с корректным переводом без понимания контекста).</p>
+      <p><strong>Промокод:</strong>TranslatorBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product6">
+    <div class="product-title">- Личный Коуч -<br><br><strong>Ваш личный коуч в Telegram: Поддержка, рефлексия и вдохновение.</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Бережный собеседник.<br><br>Бот-коуч и поддерживающий психолог 2 в 1.<br><br>Ответы генерируются с помощью ИИ-агента, обученного помогать, поддерживать, валидировать и контейнировать эмоции собеседника и задавать наводящие вопросы для саморефлексии.<br><br>Бот также дает небольшие практики и лайфхаки для улушения самочувствия, повышения концентрации, саонаблюдения и ощущения полноты и радости жизни.</p>
+      <p><strong>Промокод: </strong>CaringBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product7">
+    <div class="product-title">- Бот-трекер -<br><br><strong>Живите осознанно и держите все под контролем: Простой бот для анализа активности и прогресса.</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Это самый простой бот. Но в этом его сила:<br><br>Ты просто пишешь ему в сообщениях то, чем ты сейчас занимаешься или что сделал(а) (Например: приступил(а) к работе, перерыв, ложусь спать, засыпаю, проснулась, съел(а) то, съел(а) это, настроение вверх, настроение вниз, NN-ая чашка кофе / стакан воды и т.д) и бот записывает это сообщение вместе с датой и временем их получения в таблицу на твоем Гугл-аккаунте.<br><br>Бот хвалит за проделаную работу. При подключении опции с ИИ - отмечает прогресс.<br><br>В итоге у тебя получается список активностей или отчет о проделанной работе с временными метками.<br><br>При желании уже в таблице ты можешь производить необходимые вычисления - время сна, количество выпитой жидкости, сьеденных калорий и т.д.</p>
+      <p><strong>Промокод: </strong>TrackerBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product8">
+    <div class="product-title">- Бот для рефрейминга -<br><br><strong>Перезагрузите мышление: Избавьтесь от ограничений с помощью ИИ!</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает: </strong> <br><br>Помогает определить и перефразировать ограничивающие установки и убеждения.<br><br>Очень эффективен при работе с самопозиционированием - при написании текстов для блогов и соцсетей, выстраивании отношений с партнерами (как в жизни так и в рабочей сфере), для работы с комплексами и прочими сдерживающими вас факторами.</p>
+      <p><strong>Промокод:</strong>ReframingBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+    <div class="product" id="product9">
+    <div class="product-title">- Бот для ведения канала с анонимным постингом -<br><br><strong>Анонимный канал: Свобода мнений и ценные инсайты</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Пользователи отправляют сообщение боту. Он отправляет сообщение в канал от своего имени.<br><br>Удобно - для сбора мнений, инсайтов, мозгового штурма (возможность анонимной публикации помогает преодолеть стеснение и делает обсуждение более конфортным). При желании - можно запретить отправку в канал сообщенй, содержащих ссылки, телефоны, e-mail или определенные слова.</p>
+      <p><strong>Промокод: </strong>AnonymousBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <div class="product" id="product10">
+    <div class="product-title">- Бот для логирования канала и чата -<br><br><strong>Полная история канала: Сохраняйте посты, фото и аналитику</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Классический бот-администратор.<br><br>Записывает в Google таблицы все посты и сообщения из чата, а также отправленные в канал и в чат фото и прочие изображения.<br><br>Фиксирует дату отправки сообщения, имя автора, его аккаунт и т.д.</p>
+      <p><strong>Промокод: </strong>GroupLoggerBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+   <div class="product" id="product11">
+    <div class="product-title">- Решение для парсинга публичных каналов в Телеграм - -<br><br><strong>Мониторинг каналов: Будьте в курсе трендов и активности конкурентов</strong> <br></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Ежедневно (или чаще - по вашему желанию) проходит по списку выбранных каналов и записывает последнее сообщение в канале в сводную таблицу, с учетом количества реакций на пост.</p>
+      <p><strong>Промокод: </strong>ChannelParsingXls</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+   <div class="product" id="product12">
+    <div class="product-title">- Решение для отложенного постинга в Телеграм -<br><br><strong>Планируйте контент: Автоматизируйте и анализируйте частоту публикаций в Telegram</strong></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Вы записываете текст поста в Google календарь.<br><br>В день Х бот автоматически публикует его на вашем канале.<br><br>Вы видите список постов в календаре и получаете общую картину по истории публикаций.</p>
+      <p><strong>Промокод: </strong>PostingBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+   <div class="product" id="product13">
+    <div class="product-title">- Бот Бухгалтер -<br><br><strong>Анализ финансов в Telegram: Простой и удобный учет приходов/расходов - всегда под рукой!</strong> <br></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Очень простой бот - записаная книжка для учета доходов и расходов.<br><br>Вы забрасываете в бот сумму и "хоп!" она уже в таблице!<br><br>Баланс и итоги за месяц (или другой период) можно поверить моментально - нажав одну кнопку<br><br>К записям можно добавлять комментарии (источники и категории доходов/расходов или к какому счету или валюте относится запись).<br>Каждой записи присваивается временная метка. Учет можно вести буквально на ходу (и даже на бегу).<br><br>Фотографируйте и распознавайте чеки<br><br>Не нужно держать суммы приходов, текущих оплат, скидок и кешбека в уме весь день - сосредоточьтесь на более важных делах, а для анализа записей выберите более удобное время!</p>
+      <p><strong>Промокод: </strong>BudjetBot</p>
+      <button class="order-btn">Хочу! Получить предложение</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+   <div class="product" id="product14">
+    <div class="product-title">- Личный Шеф-повар -<br><strong>Секреты шеф-повара у вас в Telegram: Вдохновение, рецепты и лафхаки на каждый день!</strong><br></div>
+    <button class="toggle-details-btn">Подробнее</button>
+    <div class="details">
+      <p><br><strong>Как работает:</strong> <br><br>Задайте боту любой вопрос о домашней или высокой кухне. Он не только ответит по делу, но и даст дополнительный ценный совет.<br><br>Модель обучалась у лучших нутрициологов и поваров мастеров высокой кухни со звездой Michelin!</p>
+      <p><strong>Промокод: </strong>KitchenChefBot</p>
+      <button class="order-btn">Хочу! Получить ссылку.</button>
+      <div class="order-status"></div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.toggle-details-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const productDiv = button.closest('.product');
+        const details = productDiv.querySelector('.details');
+        if (details.style.display === 'block') {
+          details.style.display = 'none';
+          button.textContent = 'Подробнее';
+        } else {
+          details.style.display = 'block';
+          button.textContent = 'Скрыть';
+        }
+      });
+    });
+
+    document.querySelectorAll('.order-btn').forEach(button => {
+      button.addEventListener('click', async () => {
+        const productDiv = button.closest('.product');
+        const priceText = productDiv.querySelector('.details p:nth-child(2)').textContent.trim();
+        const priceOnly = priceText.replace(/^Промокод:\s*/, '');
+
+        try {
+          // Here, instead of calling the bot via API, I give the client a referral link to it (and the bot script already contains a proper reaction to it):
+          window.location.href = "https://t.me/privetDasha_bot?start=" + encodeURIComponent(priceOnly);
+
+        } catch (error) {
+          statusDiv.style.color = 'red';
+          statusDiv.textContent = 'Ошибка отправки заказа.';
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
